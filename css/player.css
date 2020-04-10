@@ -1,0 +1,51 @@
+.playerContainerClass {
+ position:absolute;
+ height:14px; margin:0px; padding:0px;
+ z-index:10000;
+}
+
+.audioRow b, .audioRowWall b {
+ color: #45688E;
+}
+
+.audioRowWall {
+ width:315px;
+}
+
+.toddler, .toddlerWall {
+	position:absolute;
+	background:rgb(95,125,157);
+	width:7px !important;
+	height:0px !important;
+	margin:4px 0 -10px 300px;
+	z-index:1000;
+	overflow:hidden;
+}
+
+.playline, .playlineWall {
+ position: absolute;
+ border-top: dashed 1px #D8DfEA;
+ width:342px;
+ height:5px;
+ margin-top:5px; z-index:10000;
+}
+
+.playimg {
+ cursor:pointer;
+}
+
+.duration {
+ float: right;
+ color: #777;
+ padding: 4px 7px 0px 0px;
+ font-size:10px;
+}
+
+.playerClass, .playerClassWall{
+ height:14px;
+ width:342px;
+}
+
+.playerClassWall, .playlineWall {
+ width:278px !important;
+}

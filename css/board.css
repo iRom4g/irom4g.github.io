@@ -1,0 +1,133 @@
+#content {
+ padding-top: 10px;
+}
+.back_links {
+    padding: 4px 0px 0px 0px;
+    float: right; 
+}
+.post {
+ border-bottom: solid 1px #D8DFEA;
+ padding: 9px 12px 10px 12px; }
+.post .info {
+ float: left;
+ font-size: 9px;
+ padding-top: 3px;
+ width: 62px; }
+
+.post .info img { margin-bottom: 3px }
+.post .info .postIndex { color: gray }
+.post .info .postIndex a { color: gray }
+.post .info .postIndex a:hover { color: #3b5998; }
+ 
+.post .postBody {
+ float: left; margin-right:10px;
+ padding-top: 3px;
+ width: 420px;}
+
+.post .postHeader {
+ background: #f7f7f7;
+ border-bottom: 1px solid #d8dfea;
+ border-top: 1px solid #3b5998; 
+ color: #222;
+ font-size: 11px;  
+ padding: 2px 4px; }
+
+.post .postHeader .postAuthor {
+ color: black; 
+ font-size: 11px; }    
+.post .postHeader .postAuthor a {
+ font-weight: bold; }    
+.post .postHeader .timestamp {
+ color: #666; 
+ display: block;
+ padding-top: 1px;
+ font-size: 9px; }   
+
+.post .postMessage {
+  line-height: 14px;
+  padding: 10px 40px 4px 4px;
+  word-wrap: break-word; }
+
+.post .postMessage br {
+  border-width: 0;
+  margin: 0px;
+  padding: 0px;
+  line-height: 0.5em; }
+
+.topicBar {
+  background: #f7f7f7;
+  border-bottom: solid 1px #D8DFEA;
+  color: gray; 
+  padding: 0px 5px 10px 10px; }
+  
+.topicBar h2 {
+  text-align:left;
+  color: #aaa;
+  font-size: 13px;
+  font-weight: bold;
+  word-wrap: break-word;
+  width: 380px; }
+.topicBar h2 span {
+  color: #3B5998; }
+.topicBar h2 a:hover {
+  text-decoration: none; }
+
+#addPost {
+  float: left;
+  clear: left;
+  padding: 8px 20px;
+}
+
+
+
+.boardTopics {
+	background: #f7f7f7;
+	padding: 3px 0px; padding: 10px;
+	font-size:10px;
+}
+
+.boardTopics .boardTopic {
+	background: white;
+	border: 1px solid #ccc;
+	border-top-width: 0px;
+	padding: 10px 20px;
+	margin: 5px 8px; margin: 0px;
+}
+
+.boardTopics .topicTitle a {
+  font-size: 13px; font-weight: bold;
+}
+
+.boardTopics .topicInfo .topicPager { color: #333 }
+.boardTopics .moreInfo { color: 333 }
+.boardTopics .moreInfo .timestamp { color: gray }
+.boardTopics .lastPost { padding-top: 3px; }
+
+.topicPages a {
+  padding: 0px 2px;
+}
+.topicPages a:hover {
+  background: #45668E;
+  border-color: #DAE2E8;
+  color: white;
+  padding: 0px 2px;
+  text-decoration: none;
+}
+
+ #topicactions {
+  float: right;
+  width: 155px;
+  margin: 3px 0px; }
+
+  #topicactions a, #topicactions .action_link, #topicactions .non_action {
+    display: block;
+    clear: both;
+    padding: 3px;
+    background: white;
+    border-bottom: solid 1px #CCD3DA;
+  }
+
+  #topicactions a:hover, #topicactions .action_link:hover {
+    text-decoration: none;
+    background-color: #DAE1E8;
+   }

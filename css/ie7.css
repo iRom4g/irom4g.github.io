@@ -1,0 +1,4 @@
+.clearFix, #userProfile {
+  overflow : hidden ! important;
+  _height : 1% ! important;
+}

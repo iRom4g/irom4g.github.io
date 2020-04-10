@@ -1,0 +1,296 @@
+#content {
+        padding: 12px 0px 0px 0px;
+}
+
+.delete #content {
+  padding: 8px 0 20px 0;}
+
+#message {
+ border: 1px solid #D4BC4C;
+ background-color: #F9F6E7;
+ padding: 8px 11px;
+ font-size: 11px; font-weight:bold;
+ margin: 0px 10px 10px 10px;
+ text-align:left;
+}
+
+#titleInput {
+ border: 1px solid #D4BC4C;
+ background-color: #F9F6E7;
+ padding: 2px;
+ font-size: 11px; font-weight:bold;
+}
+
+#nomail {
+  font-size: 12px;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 50px 10px;
+  color: gray;
+  background: #f7f7f7;
+  border: solid 1px #ddd; }
+
+.actionBar {
+  background: #f7f7f7;;
+  border-bottom: 1px solid #D8DFEA;
+  color: gray;
+  padding: 5px 10px 4px 10px;
+}
+
+
+#compose {
+  float: right;
+  padding: 4px 0;
+}
+
+.mailbox table {
+  margin-bottom: -1px;
+  width: auto;
+}
+
+.mailbox table th {
+  background: #f7f7f7;
+  border-bottom: 1px solid #DAE2E8;
+  color: gray;
+  font-size: 9px;
+  padding: 1px 0px 1px 0px;
+  text-align: left;
+}
+
+
+.summaryBar {
+  border-bottom: 1px solid #DAE2E8;
+  clear: both;
+  padding: 11px 10px 0 10px;
+  color: black;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.summaryBar .summary {
+  color: #45688E;
+  float: left;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
+
+.formTable {
+  margin: 0px auto; }
+
+.formTable {
+  margin: 0px; }
+
+.formTable td {
+  border: none;
+  margin: 0px;
+  padding: 3px 1px; }
+
+.formTable td.label {
+  color: gray;
+  font-weight: bold;
+  padding-right: 10px; }
+
+.formTable tr.tallRow, .formTable tr.tallRow td
+{
+  vertical-align: top; }
+
+#messageHistory {
+  margin: 10px auto;
+  width: 380px; }
+
+#messageHistory h4 {
+  margin: 5px 0px;
+  padding: 0px 0px 2px;
+  font-size: 13px;
+  border-bottom: solid 1px #DAE2E8; }
+
+#messageHistory table {
+  margin: 0px; }
+
+#messageHistory table tr {
+  vertical-align: top;
+ }
+
+#messageHistory td {
+  padding: 5px;
+  }
+
+#messageHistory .incoming {
+  vertical-align: top;
+  font-weight: bold;
+  color: #8EACC6; }
+
+#messageHistory .outgoing {
+  vertical-align: top;
+  font-weight: bold;
+  color: #45688E; }
+
+#messageHistory .date {
+  vertical-align: top;
+  color: gray; }
+
+.mailbox table {
+  margin-bottom: -1px;
+  width: auto;
+}
+
+.mailbox table th {
+  background: #f7f7f7;
+  border-bottom: 1px solid #DAE2E8;
+  color: gray;
+  font-size: 9px;
+  padding: 1px 0px 1px 0px;
+  text-align: left;
+}
+
+.mailbox table td {
+  border-bottom: 1px solid #eee;
+  padding: 4px 0; }
+
+.mailbox table .messageSnippet { padding: 6px 15px 6px 15px;}
+.mailbox table .messageChooser { width: 22px; padding-right: 4px; }
+.mailbox table .messagePicture { width: 60px; }
+.mailbox table .messageFrom { width: 125px; }
+
+.mailbox table.inbox .messageStatus  { width: 11px; padding: 0px 3px 0px 6px;}
+.mailbox table.inbox .messageStatus img { margin-top: 2px; } 
+
+.mailbox table.inbox .messageSnippet { width: 300px; overflow: hidden;}
+.mailbox table.inbox .messageActions { width: 56px; padding-right:10px}
+
+.mailbox table .date {
+ color: #777777;
+ font-size: 9px; }
+
+.mailbox .messageSubject { 
+  margin-right: 4px;
+  font-size: 11px;
+  color: #45688E; }
+
+.mailbox .messageSubject .newRow { 
+  font-weight: bold; 
+}
+
+.mailbox .messageBody {
+  font-size: 11px;
+  color: #89A8C6;
+  font-weight: normal; }
+
+.mailbox table tr.newRow {
+  background: #F5F9FB; }
+
+.mailbox table tr.delRow {
+  background: #FEFAE4; }
+
+.mailbox table tr.newRow td {
+  border-bottom: 1px solid #DAE2E8; }
+
+.mailbox table tr.delRow td {
+  border-bottom: 1px solid #E2DAA6; }
+
+.mailbox table tr.delRow td a {
+  color #A7A7A7; 
+}
+
+.showfull {padding-bottom:12px;}
+
+.buttonWrap {
+	margin:6px 0px 0px 0px; 
+	width:412px; 
+	height:3em;
+}
+
+#multiinput {
+ border:1px solid #C0CAD5;
+ padding: 3px;
+ padding-bottom:1px;
+ cursor: text;
+ width: 380px;
+}
+
+#multiinput input {
+	margin:2px;
+	margin-bottom: 4px;
+	border:0px solid #000;
+	padding:0px;
+	float: left;
+}
+
+#multiinput .clear {
+	font-size: 0;
+	height: 0;	
+	overflow: hidden;
+	clear: left;
+	margin: 0;
+	padding: 0;
+}
+
+#multiinput a {
+	margin: 0 3px 2px 0;
+	cursor: default;
+	float: left;
+	text-decoration: none;
+	outline: 0px;
+}
+
+#multiinput span {
+	background-image: url(/images/blob.gif);
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#multiinput a.hover span {
+	background-image: url(/images/blob_hover.gif);
+}
+
+/* #multiinput a.selected span, #multiinput a.selected:hover span { */
+#multiinput a.selected span {	
+	background-image: url(/images/blob_selected.gif);
+	color: #fff;
+}
+ 
+#amultiinput a.selected span.x {
+	background-image: none;
+}
+
+#amultiinput a.selected span.x {
+	background-image: none;
+}
+
+#multiinput span.mi1 {
+	background-position: left top;
+}
+#multiinput span.mi2 {
+	background-position: right top;
+}
+#multiinput span.mi3 {
+	background-position: right bottom;
+}
+#multiinput span.mi4 {
+	background-position: left bottom;
+	padding: 2px 4px;
+	white-space:nowrap;
+}
+
+/* #multiinput a span.x, #multiinput a:hover span.x { */
+#multiinput a span.x {
+	color:#B5C3D2;
+	font-weight:bold;
+	margin-left: 2px;
+	padding:0px 3px;	
+	top: 0px;
+	display: inline;
+	background-image: none;
+}
+
+/* #multiinput a span.x_hover, #multiinput a:hover span.x_hover { */
+#multiinput a span.x_hover {
+	font-weight:bold;
+	margin-left: 2px;
+	padding:0px 3px;	
+	top: 0px;
+	display: inline;
+	cursor: pointer;
+	background-image: none;
+}

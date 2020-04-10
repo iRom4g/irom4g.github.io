@@ -1,0 +1,172 @@
+#content {
+  padding:12px 0px;
+}
+
+#group.profile {
+  background: url(../images/narrowrightbg.gif) repeat-y top right; }
+
+#group.profile .left {
+  overflow: hidden;
+  padding: 0px;
+  width: 396px; }
+
+  #group.profile .left .share_and_save
+  #group.profile .left .share_button {
+    float: right; }
+  
+  #group.profile .left .info_table td.label {
+    width: 100px; }
+  
+  #group.profile .wallpost .walltext {
+    word-wrap: break-word;
+    width: 260px; }
+
+#group.profile .right {
+  overflow: hidden;
+  padding: 0px 0px 0px 10px;
+  width: 200px; }
+
+#group.profile .description {
+  width: 380px;
+  word-wrap: break-word; }
+
+#group.profile .share_section {
+  background: white; 
+  padding: 0px 0px 11px; }
+
+#group.profile .officers {
+  padding: 10px 8px 10px; }
+  
+  #group.profile .officers td {
+    margin: 0px;
+    padding: 0px 0px 5px; }
+  #group.profile .officers td.label {
+    width: 150px; }
+  #group.profile .officers tr {
+    vertical-align: top; }  
+  #group.profile .officers dl {
+    margin: 0px; }
+  #group.profile .officers dd {
+    color: gray;
+    font-size: 9px;
+    margin: 0px;
+    padding-bottom: 5px; }
+
+#group.profile .related {
+  padding: 10px 8px 10px; }
+
+  #group.profile .related ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+
+  #group.profile .related li {
+    padding: 0px 0px 5px; }
+  
+  #group.profile .related small {
+    color: gray; }
+
+  #group.profile .admins ul {
+    margin: 0px;
+    padding: 0px; }
+
+  #group.profile .admins li { 
+    color: #45688E;
+    list-style: square;
+    margin: 0px 0px 0px 1.5em; }
+
+  #group.profile .admins li span { 
+    color: black; }
+
+  #group.profile .officers ol {
+    margin: 0px; 
+    padding: 0px; }
+
+  #group.profile .officers li {
+    margin: 0px 0px 0px 1.7em;
+    padding: 0px; }
+
+  #group.profile .officers li span.officer_title { }
+
+  #group.profile .officers li span.officer_name { }
+  
+  #group.profile .related small {
+
+    color: gray; }
+#group.profile .contact {
+  padding: 10px 8px 5px; }
+  
+  #group.profile .contact .label {
+    width: 80px; }
+
+#group.profile td .dataWrap {
+   width: 270px;
+   word-wrap: break-word; 
+   overflow:hidden;
+}
+
+#group.profile .dataWrap {
+    width: 370px;
+   word-wrap: break-word; 
+}
+
+.boardTopic {
+  border-bottom: 1px solid #eee;
+  padding: 10px; }
+
+.boardTopic .topicInfo {
+  float: left;
+  padding-right: 10px;
+  width: 340px; }
+
+.boardTopic .lastPost {
+  color: black;
+  float: left;
+  width: 200px; }
+
+.boardTopic .topicTitle {
+  font-weight: bold;
+}
+.boardTopic .moreInfo {
+  color: gray;
+  font-size: 9px;
+  padding-top: 1px; 
+}
+
+.group_voting {
+	padding: 15px 5px 5px 5px;
+}
+
+.vRow p {
+ margin: 0px;
+ padding: 1px 2px 0px 2px;
+}
+
+.vRow {
+ margin: 5px 7px 0px 7px;
+}
+
+.vRow small {
+ color: #555;
+}
+
+.vRow a img {
+ padding: 1px;
+ border: 1px solid #aaa;
+ background-color: #fff;
+}
+
+.vRow a:hover img{
+ border: 1px solid #000;
+}
+
+a.gTopicLink {
+ font-size:13px;
+ margin-left: 1px;
+ padding: 0px 3px 1px 3px;
+}
+a.gTopicLink:hover {
+ padding: 0px 3px 1px 3px;
+ text-decoration: none; 
+ background-color: #DAE1E8;
+}
